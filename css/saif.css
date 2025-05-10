@@ -529,9 +529,9 @@ animation: bouncing 1.5s infinite;
     border-radius: 6px;
     transition: var(--main-transition);
 }
-.features .box-quality .img-holder::before {
+/* .features .box-quality .img-holder::before {
     background-color: #f4403675;
-}
+} */
 .features .box-quality h2::after {
 background-color: #f44036;
 }
@@ -759,7 +759,7 @@ width: 100%;
     align-items: center;
     padding-right: 15px;
 }
-.services .box .info::after {
+/* .services .box .info::after {
     content: '';
     position: absolute;
     background-color: #d5d5d5;
@@ -770,7 +770,7 @@ width: 100%;
     margin: -1px -5px;
     transform: skewX(
 -30deg);
-}
+} */
 .services .box .info a {
     text-decoration: none;
     color: var(--main-color);
@@ -1064,11 +1064,11 @@ width: 100%;
     transition: var(--main-transition);
     left: 0;
 }
-.pricing .box ::before {
+.pricing .box::before {
     left: 0;
     top: 0;
 }
-.pricing .box ::after {
+.pricing .box::after {
     right: 0;
     bottom: 0;
 }
